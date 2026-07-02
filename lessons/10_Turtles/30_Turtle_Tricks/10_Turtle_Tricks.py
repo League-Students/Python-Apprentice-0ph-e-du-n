@@ -16,7 +16,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 for i in range(3):
     tina.forward(50)
-    tina.left(300)
+    tina.left(60)
     tina.pencolor('gold')
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
