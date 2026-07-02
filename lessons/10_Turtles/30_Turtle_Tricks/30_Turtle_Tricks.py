@@ -16,13 +16,13 @@ import turtle            # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
-tina.goto(50,50,50)
-tina.circle(25)
+tina.goto(50,50)
 tina.begin_fill()
+tina.circle(25)
 tina.fillcolor('blue')
 tina.end_fill()
 
-tina.goto(-100,20,80)
+tina.goto(-100,20)
 tina.circle(25)
 tina.begin_fill()
 tina.fillcolor('royal blue')
