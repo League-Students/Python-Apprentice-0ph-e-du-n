@@ -34,7 +34,9 @@ tina.pencolor('light goldenrod yellow')
 
 tina.forward(80)
 tina.left(72)
+tina.forward(80)
 tina.pencolor('cornsilk')
+
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
