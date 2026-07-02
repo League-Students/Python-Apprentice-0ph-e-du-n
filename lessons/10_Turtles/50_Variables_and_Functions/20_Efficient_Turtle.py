@@ -10,15 +10,12 @@ In this program, use what you've learned about functions and variables to make a
 
 import turtle                            # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)             # Set the size of the window
-
-    tina = turtle.Turtle()                   # Create a turtle named tina
-
+tina = turtle.Turtle()                   # Create a turtle named tina
 tina.shape('turtle')                     # Set the shape of the turtle to a turtle
 tina.speed(2)                            # Move at a moderate speed, not too fast.
 
 def draw_polygon(sides):
-
-    angle = ...                          # Calculate angle from number of sides
+    angle = 180                      # Calculate angle from number of sides
     
     for i in range(...):                 # Loop through the number of sides
         ...                              # Move tina forward by the forward distance
