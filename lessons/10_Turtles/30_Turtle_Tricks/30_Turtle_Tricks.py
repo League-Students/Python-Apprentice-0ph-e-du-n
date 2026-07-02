@@ -12,10 +12,12 @@ Refer to the previous program, Meet_Tina.py for examples of how to use these tur
 """
 
 # These lines are needed in most turtle programs
-import turtle                           # Tell Python we want to work with the turtle
+import turtle            # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
+tina.circle()
+tina.goto
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
