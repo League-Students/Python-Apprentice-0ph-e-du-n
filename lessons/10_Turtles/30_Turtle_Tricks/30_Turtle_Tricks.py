@@ -19,7 +19,8 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 tina.goto(50,50,50)
 tina.circle(25)
 tina.begin_fill()
-tina.fillcolor('')
+tina.fillcolor('blue')
+tina.end_fill()
 
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
