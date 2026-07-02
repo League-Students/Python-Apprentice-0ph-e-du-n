@@ -12,7 +12,7 @@ uid: 85lNu5qj
 name: Loop With Turtle
 """
 
-import turtle                           # Tell Python we want to work with the turtle
+import turtle             # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
