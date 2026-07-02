@@ -20,7 +20,15 @@ tina.pencolor('gold')
 
 tina.forward(80)
 tina.left(72)
-tina.pencolor('gold')
+tina.pencolor('ivory')
+
+tina.forward(80)
+tina.left(72)
+tina.pencolor('light yellow')
+
+tina.forward(80)
+tina.left(72)
+tina.pencolor('')
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
 # tina.pencolor()
