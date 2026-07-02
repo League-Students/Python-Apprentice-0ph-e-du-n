@@ -14,10 +14,10 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
-for i in range(3):
-    tina.forward(50)
-    tina.left(120)
-    tina.pencolor('gold')
+
+tina.forward(50)
+tina.left(120)
+tina.pencolor('gold')
 # Use tina.forward() and tina.left() to draw a triangle
 # Make each side of the triangle a different color with 
 # tina.pencolor()
