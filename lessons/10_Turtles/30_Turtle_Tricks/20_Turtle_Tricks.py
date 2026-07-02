@@ -14,7 +14,8 @@ import turtle            # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()
 window = turtle.Screen()
-window.bgcolor('black')                  # Create a turtle named tina
+window.bgcolor('black')
+                  # Create a turtle named tina
 
 tina.forward(80)
 tina.left(72)
