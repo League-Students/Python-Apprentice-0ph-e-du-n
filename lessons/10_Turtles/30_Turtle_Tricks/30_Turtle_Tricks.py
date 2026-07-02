@@ -23,8 +23,8 @@ tina.fillcolor('blue')
 tina.end_fill()
 
 tina.goto(-100,20)
-tina.circle(25)
 tina.begin_fill()
+tina.circle(25)
 tina.fillcolor('royal blue')
 tina.end_fill()
 
