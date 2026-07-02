@@ -10,9 +10,10 @@ Refer to the previous program, Meet_Tina.py, for examples of how to use turtle c
 """
 
 # These lines are needed in most turtle programs
-import turtle                           # Tell Python we want to work with the turtle
+import turtle            # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
+
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
