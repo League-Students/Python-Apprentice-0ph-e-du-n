@@ -22,6 +22,12 @@ tina.begin_fill()
 tina.fillcolor('blue')
 tina.end_fill()
 
+tina.goto(-100,20,80)
+tina.circle(25)
+tina.begin_fill()
+tina.fillcolor('royal blue')
+tina.end_fill()
+
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
