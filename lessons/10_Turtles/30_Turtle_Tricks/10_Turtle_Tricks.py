@@ -21,7 +21,7 @@ tina.pencolor('black')
 
 tina.forward(50)
 tina.left(120)
-tina.pencolor('gray')
+tina.pencolor('dark gray')
 
 tina.forward(50)
 tina.left(120)
