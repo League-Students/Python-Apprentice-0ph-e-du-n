@@ -14,8 +14,6 @@ import turtle
 tina = turtle.Turtle()                                          # Create the second turtle
 tina.penup()                                        # Lift the pen to move without drawing
 tina.pencolor('blue')
-set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
-tina
 
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
@@ -31,6 +29,9 @@ def set_turtle_image(turtle, image_name):
     screen = turtle.getscreen()                     # Get the turtle's screen
     screen.addshape(image_path)                     # Register the image as a shape
     turtle.shape(image_path)                        # Set the turtle's shape to the image
+
+set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
+tina
 
 for i in range(5)
     tina.forward(80)
