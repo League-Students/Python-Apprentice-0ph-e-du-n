@@ -30,6 +30,6 @@ set_background_image(screen, "emoji.png")   # Set the background image of the sc
 
 for i in range(4):
     tina.forward(80)
-    tina.left()
+    tina.left(90)
 
 turtle.exitonclick() 
