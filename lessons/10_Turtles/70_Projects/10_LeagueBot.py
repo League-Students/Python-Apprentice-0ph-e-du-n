@@ -35,4 +35,3 @@ def set_turtle_image(turtle, image_name):
 for i in range(5)
     tina.forward(80)
     tina.left(72)
-... # Your Code Here
