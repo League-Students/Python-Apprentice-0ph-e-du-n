@@ -11,6 +11,10 @@ Write your own turtle program! Here is what your program should do
 
 import turtle
 
+t = turtle.Turtle()                                            # Create the second turtle
+t2.penup()                                          # Lift the pen to move without drawing
+set_turtle_image(t, "leaguebot_bolt.gif")                   # Set the shape of the turtle
+
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor('white')
