@@ -12,7 +12,7 @@ Write your own turtle program! Here is what your program should do
 import turtle
 
 tina = turtle.Turtle()                                          # Create the second turtle
-t2.penup()                                          # Lift the pen to move without drawing
+tina.penup()                                        # Lift the pen to move without drawing
 set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
 tina
 
@@ -31,6 +31,5 @@ def set_turtle_image(turtle, image_name):
     screen.addshape(image_path)                     # Register the image as a shape
     turtle.shape(image_path)                        # Set the turtle's shape to the image
 
-t = turtle.Turtle()
 
 ... # Your Code Here
