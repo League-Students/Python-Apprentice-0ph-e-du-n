@@ -29,6 +29,7 @@ screen = turtle.Screen()                    # Get the screen that tina is on
 set_background_image(screen, "emoji.png")   # Set the background image of the screen
 
 for i in range(4):
-    tina
+    tina.forward(80)
+    tina.left()
 
 turtle.exitonclick() 
