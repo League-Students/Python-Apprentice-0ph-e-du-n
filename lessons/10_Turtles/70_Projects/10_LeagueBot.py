@@ -13,6 +13,7 @@ import turtle
 
 tina = turtle.Turtle()                                          # Create the second turtle
 tina.penup()                                        # Lift the pen to move without drawing
+tina.pencolor('blue')
 set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
 tina
 
