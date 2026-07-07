@@ -24,7 +24,7 @@ t1.shape("turtle")                      # Set the shape of the turtle
 
 t2 = turtle.Turtle()                    # Create the second turtle
 t2.penup()                              # Lift the pen to move without drawing
-t2.shape("arrow")                       # Set the shape of the turtle
+set_turtle_image(t, "leaguebot_bolt.gif")                       # Set the shape of the turtle
 
 # Move both turtles in a loop
 for i in range(-200, 200):
