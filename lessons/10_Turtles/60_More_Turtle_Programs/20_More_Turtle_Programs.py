@@ -26,7 +26,7 @@ screen.setup(width=600, height=600)
 # Create a turtle and set its shape to the custom GIF
 t = turtle.Turtle()
 
-set_turtle_image(t, "pikachu.gif")
+set_turtle_image(t, "")
 
 t.penup()   # Prevent drawing when moving
 t.speed(3)  # Set a moderate speed
