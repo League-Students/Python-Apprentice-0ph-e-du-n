@@ -11,9 +11,9 @@ Write your own turtle program! Here is what your program should do
 
 import turtle
 
-tina = turtle.Turtle()                                           # Create the second turtle
+tina = turtle.Turtle()                                          # Create the second turtle
 t2.penup()                                          # Lift the pen to move without drawing
-set_turtle_image(t, "leaguebot_bolt.gif")                   # Set the shape of the turtle
+set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
 tina
 
 screen = turtle.Screen()
