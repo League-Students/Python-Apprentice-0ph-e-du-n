@@ -18,6 +18,9 @@ screen = turtle.Screen()                # Set up the screen
 screen.setup(width=600, height=600)     # Set the size of the window
 screen.bgcolor('white')                 # Set the background color
 
+
+
+
 t1 = turtle.Turtle()                    # Create the first turtle
 t1.penup()                              # Lift the pen to move without drawing
 t1.shape("turtle")                      # Set the shape of the turtle
