@@ -32,5 +32,7 @@ def set_turtle_image(turtle, image_name):
     screen.addshape(image_path)                     # Register the image as a shape
     turtle.shape(image_path)                        # Set the turtle's shape to the image
 
+t
+
 
 ... # Your Code Here
