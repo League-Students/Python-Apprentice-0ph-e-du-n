@@ -34,5 +34,4 @@ def set_turtle_image(turtle, image_name):
 
 t
 
-
 ... # Your Code Here
