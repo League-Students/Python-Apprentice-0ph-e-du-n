@@ -14,6 +14,7 @@ import turtle
 t = turtle.Turtle()                                            # Create the second turtle
 t2.penup()                                          # Lift the pen to move without drawing
 set_turtle_image(t, "leaguebot_bolt.gif")                   # Set the shape of the turtle
+tina
 
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
