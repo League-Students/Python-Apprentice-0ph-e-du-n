@@ -32,6 +32,7 @@ def set_turtle_image(turtle, image_name):
     screen.addshape(image_path)                     # Register the image as a shape
     turtle.shape(image_path)                        # Set the turtle's shape to the image
 
-t
-
+for i in range(5)
+    tina.forward(80)
+    tina.left(72)
 ... # Your Code Here
