@@ -34,6 +34,6 @@ set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of 
 tina
 
 tina.pendown
-for i in range(5)
+for i in range(5):
     tina.forward(80)
     tina.left(72)
