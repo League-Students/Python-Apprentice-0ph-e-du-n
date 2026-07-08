@@ -33,6 +33,7 @@ def set_turtle_image(turtle, image_name):
 set_turtle_image(tina, "leaguebot_bolt.gif")                 # Set the shape of the turtle
 tina
 
+t
 for i in range(5)
     tina.forward(80)
     tina.left(72)
