@@ -28,23 +28,29 @@ def show_animatronics():
         tina.hideturtle()
 
 def open_cam1():
+    global cam_num
+    cam_num = 1
     print ("cam 1 open")
     screen. bgcolor(cam_colors[0])
     show.animatronics(1)
 
 def open_cam2():
+    global cam_num
+    cam_num = 2
     print ("cam 2 open")
     screen. bgcolor(cam_colors[1])
     show.animatronics(2)
 
 def open_cam3():
     global cam_num
-    
+    cam_num = 3
     print ("cam 3 open")
     screen. bgcolor(cam_colors[2])
     show.animatronics(3)
 
 def open_cam4():
+    global cam_num
+    cam_num = 4
     print ("cam 4 open")
     screen. bgcolor(cam_colors[3])
     show.animatronics(4)
