@@ -15,7 +15,7 @@ cam_colors = ('red', 'gray', 'white', 'blue', 'green')
 
 def move_tina():
     global tina_progress
-    tina_progress += 1
+    if tina_progress == len(tina_path):
     show.animatronics()
     screen.ontimer(move_tina,2000)  
 
