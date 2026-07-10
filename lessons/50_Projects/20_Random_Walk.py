@@ -38,7 +38,7 @@ def open_cam4():
 def open_cam5():
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4])
-    show 
+    show.animatronics(5)
 
 def exit_cam():
     print("cam exited")
