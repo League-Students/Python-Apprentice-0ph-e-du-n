@@ -49,11 +49,12 @@ def exit_cam():
     show.animatronics(-1)
 
 screen.listen()
-screen.onkay(open_cam1,"1")
-screen.onkay(open_cam2,"2")
-screen.onkay(open_cam3,"3")
-screen.onkay(open_cam4,"4")
-screen.onkay(open_cam5,"5")
+screen.onkay(open_cam1, "1")
+screen.onkay(open_cam2, "2")
+screen.onkay(open_cam3, "3")
+screen.onkay(open_cam4, "4")
+screen.onkay(open_cam5, "5")
+screen.onka
 
 
 
