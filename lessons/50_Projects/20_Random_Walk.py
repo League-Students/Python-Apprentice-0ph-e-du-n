@@ -3,7 +3,7 @@ import turtle
 
 tina = turtle.Turtle()
 tina.shape("turtle")
-tina_path = [1,2,3,4,5]
+tina_path = [1,2,4,5]
 tina_progress = 0
 
 screen = turtle.Screen()
@@ -38,11 +38,12 @@ def open_cam4():
 def open_cam5():
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4])
+    show 
 
 def exit_cam():
     print("cam exited")
     screen.bgcolor("yellow")
-    show.animatronics()
+    show.animatronics(-1)
 
 screen.listen()
 screen.onkay(open_cam1,"1")
