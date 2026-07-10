@@ -38,6 +38,8 @@ def open_cam2():
     show.animatronics(2)
 
 def open_cam3():
+    global cam_num
+    
     print ("cam 3 open")
     screen. bgcolor(cam_colors[2])
     show.animatronics(3)
