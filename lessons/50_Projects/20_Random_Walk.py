@@ -17,7 +17,7 @@ def move_tina():
     global tina_progress
     tina_progress += 1
     show.animatronics()
-    screen.ontimer(move_tina,2000)
+    screen.ontimer(move_tina,2000)  
 
 def show_animatronics():
     global cam_num 
