@@ -1,6 +1,6 @@
 
 import turtle
-import ime
+import time
 
 tina = turtle.Turtle()
 tina.shape("turtle")
