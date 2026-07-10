@@ -16,7 +16,7 @@ def show_animatronics(cam_num):
     if(cam_num == tina_path[tina_progress]):
         tina.showturtle()
     else:
-        tina.hideturtle
+        tina.hideturtle()
 
 def open_cam1():
     print ("cam 1 open")
@@ -39,7 +39,9 @@ def open_cam5():
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4])
 
-def exit_cam()
+def exit_cam():
+    print("cam exited")
+    screen.bgcolor(yellow)
 
 screen.listen()
 screen.onkay(open_cam1,"1")
