@@ -27,5 +27,9 @@ def open_cam5():
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4]
 
+
+screen.listen()
+screen.onkay(open_cam_1)
+
 # Close the turtle window on click
 screen.exitonclick()
