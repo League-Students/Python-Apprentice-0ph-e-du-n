@@ -17,7 +17,7 @@ def show_animatronics(cam_num):
         tina.showturtle()
     else:
         tina.hideturtle()
-
+        
 def open_cam1():
     print ("cam 1 open")
     screen. bgcolor(cam_colors[0])
