@@ -21,6 +21,7 @@ def show_animatronics(cam_num):
 def open_cam1():
     print ("cam 1 open")
     screen. bgcolor(cam_colors[0])
+    show
 
 def open_cam2():
     print ("cam 2 open")
@@ -38,7 +39,7 @@ def open_cam5():
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4])
 
-exit_cam
+def exit_cam()
 
 screen.listen()
 screen.onkay(open_cam1,"1")
