@@ -73,8 +73,8 @@ def exit_cam():
     show.animatronics(-1)
 
 screen.listen()
-screen.onkey(open_cam1, "1")
-screen.onkey(open_cam2, "2")
+screen.onkey(open_cam_1, "1")
+screen.onkey(open_cam_2, "2")
 screen.onkey(open_cam3, "3")
 screen.onkey(open_cam4, "4")
 screen.onkey(open_cam5, "5")
