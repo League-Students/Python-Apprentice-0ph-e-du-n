@@ -19,7 +19,7 @@ def move_tina():
     show.animatronics()
     screen.ontimer(move_tina,2000)
 
-def show_animatronics(cam_num):
+def show_animatronics():
     global cam_num 
     #tina show
     if(cam_num == tina_path[tina_progress]):
