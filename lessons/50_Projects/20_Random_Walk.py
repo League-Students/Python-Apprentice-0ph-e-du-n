@@ -35,5 +35,7 @@ screen.onkay(open_cam3,"3")
 screen.onkay(open_cam4,"4")
 screen.onkay(open_cam5,"5")
 
-# Close the turtle window on click
+
+
+
 screen.exitonclick()
