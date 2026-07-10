@@ -11,6 +11,8 @@ screen.setup(500,500)
 
 cam_colors = ('red', 'gray', 'white', 'blue', 'green')
 
+def move_tina():
+
 def show_animatronics(cam_num):
     #tina show
     if(cam_num == tina_path[tina_progress]):
