@@ -56,6 +56,8 @@ def open_cam4():
     show.animatronics(4)
 
 def open_cam5():
+    global cam_num
+    cam_num = 5
     print ("cam 5 open")
     screen. bgcolor(cam_colors[4])
     show.animatronics(5)
