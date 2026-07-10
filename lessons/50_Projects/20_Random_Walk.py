@@ -59,4 +59,4 @@ screen.onkey(exit_cam,"0")
 
 
 
-screen.exitonclick()
+turtle.exitonclick()
