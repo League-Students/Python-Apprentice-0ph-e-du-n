@@ -8,24 +8,24 @@ screen.setup(500,500)
 cam_colors = ['red', 'black, 'white', 'blue','green']
 
 def open_cam1():
-    print ("cam 5 open")
+    print ("cam 1 open")
     screen. bgcolor(cam_colors[0]
 
 def open_cam2():
-    print ("cam 5 open")
-    screen. bgcolor(cam_colors[0]
+    print ("cam 2 open")
+    screen. bgcolor(cam_colors[1]
 
 def open_cam3():
-    print ("cam 5 open")
-    screen. bgcolor(cam_colors[0]
+    print ("cam 3 open")
+    screen. bgcolor(cam_colors[2]
 
 def open_cam4():
-    print ("cam 5 open")
-    screen. bgcolor(cam_colors[0]
+    print ("cam 4 open")
+    screen. bgcolor(cam_colors[3]
 
 def open_cam5():
     print ("cam 5 open")
-    screen. bgcolor(cam_colors[0]
+    screen. bgcolor(cam_colors[4]
 
 # Close the turtle window on click
 screen.exitonclick()
