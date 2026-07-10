@@ -29,7 +29,10 @@ def open_cam5():
 
 
 screen.listen()
-screen.onkay(open_cam_1)
+screen.onkay(open_cam1,"1")
+screen.onkay(open_cam1,"1")
+screen.onkay(open_cam1,"1")
+
 
 # Close the turtle window on click
 screen.exitonclick()
